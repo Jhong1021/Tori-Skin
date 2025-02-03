@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Giga+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <title>Tori Skin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bg-cover {
+            background-image: url('/assets/images/Model%201.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body class="bg-cover h-screen text-white">
+
+    <!-- Navbar (Fixed and Responsive) -->
+    <nav class="fixed top-0 left-0 w-full bg-transparent p-10 pl-16 z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <ul class="flex space-x-16">
+                <li><a href="#" class="text-[#426633] underline font-light underline-offset-4"
+                        style="font-family: 'Giga Sans', sans-serif;">Home</a></li>
+
+                <li><a href="#" class="text-black font-light" style="font-family: 'Giga Sans', sans-serif;">About Us</a>
+                </li>
+                <li><a href="#" class="text-black font-light" style="font-family: 'Giga Sans', sans-serif;">Services</a>
+                </li>
+                <li><a href="#" class="text-black font-light" style="font-family: 'Giga Sans', sans-serif;">Contact
+                        Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative flex items-center justify-center-start h-screen pl-16">
+        <div class="text-left max-w-lg">
+            <h1 class="text-5xl text-gray-900 mb-4" style="font-family: 'Playfair Display', serif;">Your Skin
+                Matters</h1>
+            <h2 class="text-2xl text-gray-700 mb-2" style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                Formulated for perfection.
+            </h2>
+            <h2 class="text-2xl text-gray-700" style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                Your skin’s partner for a better you.
+            </h2>
+
+        </div>
+        <img src="assets/images/Logo (1).png" alt="Hero Image"
+            class="absolute bottom-0 left-0 w-100 h-80 object-cover pl-16">
+    </section>
+
+    <!-- Product Section -->
+    <section class="py-16 px-8 bg-white text-gray-900">
+        <div class="text-center mb-8">
+            <h1 class="text-5xl text-gray-900 mb-4" style="font-family: 'Playfair Display', serif;">PRODUCTS</h1>
+            <div class="flex justify-center space-x-8">
+                <button class="text-gray-700 px-4 py-2 rounded-lg"
+                    style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                    Brightening
+                </button>
+                <button
+                    class="text-gray-700 px-4 py-2 rounded-lg underline decoration-[#89CFF0] decoration-2 underline-offset-4"
+                    style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                    Anti-Acne
+                </button>
+                <button class="text-gray-700 px-4 py-2 rounded-lg"
+                    style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                    Anti-Aging
+                </button>
+            </div>
+        </div>
+
+        <!-- Centered Container for Product Cards -->
+        <div class="max-w-screen-xl mx-auto">
+            <!-- Flex Container for Product Cards -->
+            <div class="flex flex-col gap-6">
+                <!-- First Row (3 cards) -->
+                <div class="flex justify-center gap-6 flex-wrap">
+                    <!-- Product Card 1 -->
+                    <div
+                        class="w-64 transform overflow-hidden rounded-lg bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg mb-6">
+                        <img class="w-full object-cover object-center" src="assets/images/Product 2.jpg"
+                            alt="Product Image" />
+                        <div class="p-4 rounded-[15px]">
+                            <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900"
+                                style="font-family: 'Playfair Display', serif;">Anti-Acne Serum</h2>
+                            <p class="mb-1 text-xs dark:text-gray-300 text-gray-700"
+                                style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">A product formulated to
+                                give the cleaner skin and prevents it from breaking out.</p>
+                            <div class="flex items-center">
+                                <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">₱800</p>
+                                <img src="assets/images/Shopee Logo.png" alt="Discount Icon" class="ml-auto w-7 h-10">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div
+                        class="w-64 transform overflow-hidden rounded-lg bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg mb-6">
+                        <img class="w-full object-cover object-center" src="assets/images/Product 1.jpg"
+                            alt="Product Image" />
+                        <div class="p-4 rounded-[15px]">
+                            <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900"
+                                style="font-family: 'Playfair Display', serif;">Anti-Acne Wash Foam</h2>
+                            <p class="mb-1 text-xs dark:text-gray-300 text-gray-700"
+                                style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">A product formulated to
+                                give the cleaner skin and prevents it from breaking out.</p>
+                            <div class="flex items-center">
+                                <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">₱1,000</p>
+                                <img src="assets/images/Shopee Logo.png" alt="Discount Icon" class="ml-auto w-7 h-10">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div
+                        class="w-64 transform overflow-hidden rounded-lg bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg mb-6">
+                        <img class="w-full object-cover object-center" src="assets/images/Product 1.jpg"
+                            alt="Product Image" />
+                        <div class="p-4 rounded-[15px]">
+                            <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900"
+                                style="font-family: 'Playfair Display', serif;">Anti-Acne Toner</h2>
+                            <p class="mb-1 text-xs dark:text-gray-300 text-gray-700"
+                                style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">A product formulated to
+                                give the cleaner skin and prevents it from breaking out.</p>
+                            <div class="flex items-center">
+                                <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">₱650</p>
+                                <img src="assets/images/Shopee Logo.png" alt="Discount Icon" class="ml-auto w-7 h-10">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Row (3 cards) -->
+                <div class="flex justify-center gap-6 flex-wrap">
+                    <!-- Product Card 4 -->
+                    <div
+                        class="w-64 transform overflow-hidden rounded-lg bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg mb-6">
+                        <img class="w-full object-cover object-center" src="assets/images/Product 2.jpg"
+                            alt="Product Image" />
+                        <div class="p-4 rounded-[15px]">
+                            <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900"
+                                style="font-family: 'Playfair Display', serif;">Anti-Acne Cream</h2>
+                            <p class="mb-1 text-xs dark:text-gray-300 text-gray-700"
+                                style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">A product formulated to
+                                give the cleaner skin and prevents it from breaking out.</p>
+                            <div class="flex items-center">
+                                <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">₱500</p>
+                                <img src="assets/images/Shopee Logo.png" alt="Discount Icon" class="ml-auto w-7 h-10">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 5 -->
+                    <div
+                        class="w-64 transform overflow-hidden rounded-lg bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg mb-6">
+                        <img class="w-full object-cover object-center" src="assets/images/Product 2.jpg"
+                            alt="Product Image" />
+                        <div class="p-4 rounded-[15px]">
+                            <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900"
+                                style="font-family: 'Playfair Display', serif;">Anti-Acne Serum</h2>
+                            <p class="mb-1 text-xs dark:text-gray-300 text-gray-700"
+                                style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">A product formulated to
+                                give the cleaner skin and prevents it from breaking out.</p>
+                            <div class="flex items-center">
+                                <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">₱800</p>
+                                <img src="assets/images/Shopee Logo.png" alt="Discount Icon" class="ml-auto w-7 h-10">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 6 -->
+                    <div
+                        class="w-64 transform overflow-hidden rounded-lg bg-white dark:bg-slate-800 shadow-md duration-300 hover:scale-105 hover:shadow-lg mb-6">
+                        <img class="w-full object-cover object-center" src="assets/images/Product 1.jpg"
+                            alt="Product Image" />
+                        <div class="p-4 rounded-[15px]">
+                            <h2 class="mb-2 text-lg font-medium dark:text-white text-gray-900"
+                                style="font-family: 'Playfair Display', serif;">Anti-Acne Wash Foam</h2>
+                            <p class="mb-1 text-xs dark:text-gray-300 text-gray-700"
+                                style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">A product formulated to
+                                give the cleaner skin and prevents it from breaking out.</p>
+                            <div class="flex items-center">
+                                <p class="mr-2 text-lg font-semibold text-gray-900 dark:text-white">₱1,000</p>
+                                <img src="assets/images/Shopee Logo.png" alt="Discount Icon" class="ml-auto w-7 h-10">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <!-- First Grid (Image and Text) -->
+        <div class="grid grid-cols-1 lg:grid-cols-5 grid-rows-3 gap-0">
+            <!-- Image (Div 1) -->
+            <div class="col-span-1 lg:col-span-3 row-span-3">
+                <img class="w-full h-auto object-cover" src="assets/images/Model 2.jpg" alt="Image Description" />
+            </div>
+
+            <!-- Title (Div 2) -->
+            <div class="col-span-1 lg:col-span-2 row-span-3 flex items-center justify-center text-black px-4">
+                <div class="text-left">
+                    <h1 class="text-2xl lg:text-4xl font-bold mb-4"
+                        style="font-family: 'Giga Sans', sans-serif; font-weight: 700;">
+                        Your skin’s partner for a <br> better you.
+                    </h1>
+                    <h2 class="text-sm lg:text-lg" style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                        Formulated with key ingredients to <br> help you achieve the perfect look.
+                        The <br> result: impossibly smooth, luminescent <br> skin that glows with a healthy-looking
+                        complexion.
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Grid (Image and Text) -->
+        <div class="grid grid-cols-1 lg:grid-cols-5 grid-rows-3 gap-0">
+            <!-- Title (Div 1) -->
+            <div class="col-span-1 lg:col-span-3 row-span-3 text-black flex items-center justify-center px-4">
+                <div class="text-left">
+                    <h2 class="text-sm lg:text-lg" style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                        The Anti-Acne Skincare system is specially <br>
+                        formulated to treat imperfections and acne. <br>
+                    </h2>
+
+                    <h2 class="text-sm lg:text-lg mt-3" style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                        It is a dual-phase system that reduces and <br>
+                        prevents pimples, blackheads, and other skin <br>
+                        blemishes while providing essential nutrients to <br>
+                        maintain a healthy complexion.
+                    </h2>
+                </div>
+            </div>
+
+            <!-- Image (Div 2) -->
+            <div class="col-span-1 lg:col-span-2 row-span-3 flex items-center justify-center">
+                <img class="w-full h-auto object-cover" src="assets/images/Group Products 1.png"
+                    alt="Image Description" />
+            </div>
+        </div>
+
+        <!-- Third Grid (Image and Text) -->
+        <div class="grid grid-cols-1 lg:grid-cols-5 grid-rows-3 gap-0">
+            <!-- Image (Div 1) -->
+            <div class="col-span-1 lg:col-span-3 row-span-3">
+                <img class="w-full h-auto object-cover" src="assets/images/Group Products 2.png"
+                    alt="Image Description" />
+            </div>
+
+            <!-- Title (Div 2) -->
+            <div class="col-span-1 lg:col-span-2 row-span-3 flex items-center justify-center text-black px-4">
+                <div class="text-left">
+                    <h2 class="text-sm lg:text-lg" style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                        This reveals your radiant skin by <br>
+                        helping treat the problem of <br>
+                        problematic skin. <br>
+                    </h2>
+
+                    <h2 class="text-sm lg:text-lg mt-3" style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                        A combination of natural extracts will visibly <br> lighten and brighten uneven <br>
+                        skin tones, acne scars, age spots, and <br>
+                        pigmentation
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="h-[600px] relative">
+            <!-- Top Half (Black background) -->
+            <div class="h-1/2 bg-black">
+                <!-- Title "KNOW MORE" -->
+                <div class="absolute top-0 left-1/2 transform -translate-x-1/2 pt-12">
+                    <h2 class="text-4xl text-white relative">
+                        <span
+                            class="absolute left-[-90px] w-[35%] border-t-2 border-white top-1/2 transform -translate-y-1/2"></span>
+                        KNOW MORE
+                        <span
+                            class="absolute right-[-90px] w-[35%] border-t-2 border-white top-1/2 transform -translate-y-1/2"></span>
+                    </h2>
+                </div>
+            </div>
+
+            <!-- Bottom Half (White background) -->
+            <div class="h-1/2 bg-white"></div>
+
+            <!-- Image Container in the Middle -->
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex gap-6">
+                <!-- Image 1 -->
+                <div class="w-60 h-80 rounded-lg overflow-hidden flex flex-col justify-end items-center">
+                    <img src="assets/images/Model 4.png" alt="Image 1" class="w-full h-full object-cover" />
+                    <div class="bg-white bg-opacity-50 px-2 py-2 text-center w-full">
+                        <h1 class="text-xl text-black" style="font-family: 'Playfair Display', serif;">ANTI-ACNE</h1>
+                        <p class="text-sm text-black"
+                            style="color: #7C7C7C; font-family: 'Giga Sans', sans-serif; font-weight: 300;">Read</p>
+                    </div>
+                </div>
+                <!-- Image 2 -->
+                <div class="w-60 h-80 rounded-lg overflow-hidden flex flex-col justify-end items-center">
+                    <img src="assets/images/Model 5.jpg" alt="Image 2" class="w-full h-full object-cover" />
+                    <div class="bg-white bg-opacity-50 px-2 py-2 text-center w-full">
+                        <h1 class="text-xl text-black" style="font-family: 'Playfair Display', serif;">BRIGHTENING</h1>
+                        <p class="text-sm text-black"
+                            style="color: #7C7C7C; font-family: 'Giga Sans', sans-serif; font-weight: 300;">Read</p>
+                    </div>
+                </div>
+                <!-- Image 3 -->
+                <div class="w-60 h-80 rounded-lg overflow-hidden flex flex-col justify-end items-center">
+                    <img src="assets/images/Model 3.jpg" alt="Image 3" class="w-full h-full object-cover" />
+                    <div class="bg-white bg-opacity-50 px-2 py-2 text-center w-full">
+                        <h1 class="text-xl text-black" style="font-family: 'Playfair Display', serif;">ANTI-AGING</h1>
+                        <p class="text-sm text-black"
+                            style="color: #7C7C7C; font-family: 'Giga Sans', sans-serif; font-weight: 300;">Read</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white py-10">
+        <div class="mx-auto w-full max-w-screen-xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 px-4">
+                <!-- Title Section (Aligned with other sections) -->
+                <div>
+                    <h1 class="text-5xl mb-6" style="font-family: 'Playfair Display', serif;">Tori Skin</h1>
+                </div>
+
+                <!-- Company Section -->
+                <div>
+                    <h2 class="mb-6 text-md font-semibold uppercase"
+                        style="font-family: 'Giga Sans', sans-serif; font-weight: 700;">Home</h2>
+                    <ul class="text-gray-400 text-sm" style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                        <li class="mb-4"><a href="#" class="hover:underline">About us</a></li>
+                        <li class="mb-4"><a href="#" class="hover:underline">Products</a></li>
+                        <li class="mb-4"><a href="#" class="hover:underline">Distributors</a></li>
+                        <li class="mb-4"><a href="#" class="hover:underline">Packages</a></li>
+                    </ul>
+                </div>
+
+                <!-- Help Center Section -->
+                <div>
+                    <h2 class="mb-6 text-md font-semibold uppercase"
+                        style="font-family: 'Giga Sans', sans-serif; font-weight: 700;">About Us</h2>
+                    <ul class="text-gray-400 text-sm" style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                        <li class="mb-4"><a href="#" class="hover:underline">About us</a></li>
+                        <li class="mb-4"><a href="#" class="hover:underline">Get Started</a></li>
+                        <li class="mb-4"><a href="#" class="hover:underline">Media</a></li>
+                        <li class="mb-4"><a href="#" class="hover:underline">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal Section -->
+                <div>
+                    <h2 class="mb-6 text-md font-semibold uppercase"
+                        style="font-family: 'Giga Sans', sans-serif; font-weight: 700;">Products</h2>
+                    <ul class="text-gray-400 text-sm" style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                        <li class="mb-4"><a href="#" class="hover:underline">Product Line</a></li>
+                        <li class="mb-4"><a href="#" class="hover:underline">Anti-Acne</a></li>
+                        <li class="mb-4"><a href="#" class="hover:underline">Brightening</a></li>
+                        <li class="mb-4"><a href="#" class="hover:underline">Whitening</a></li>
+                    </ul>
+                </div>
+
+                <!-- Download Section -->
+                <div>
+                    <h2 class="mb-6 text-md font-semibold uppercase"
+                        style="font-family: 'Giga Sans', sans-serif; font-weight: 700;">Contact Us</h2>
+                    <ul class="text-gray-400 text-sm" style="font-family: 'Giga Sans', sans-serif; font-weight: 300;">
+                        <li class="mb-4"><a href="#" class="hover:underline">(000) 123-1234</a></li>
+                        <li class="mb-4"><a href="#" class="hover:underline">customercare@toriskin.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-8 text-sm">
+            <p>COPYRIGHT&copy; 2022 | Tori Skin</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
